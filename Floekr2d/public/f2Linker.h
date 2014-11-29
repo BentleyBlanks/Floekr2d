@@ -1,0 +1,3 @@
+
+
+// Linker用于连接原本不想干的body与shape 使得shape能够为body中的必要属性进行计算初始化

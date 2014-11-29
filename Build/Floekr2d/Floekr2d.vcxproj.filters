@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="debug">
+      <UniqueIdentifier>{f1d8d670-b57f-482a-8059-598b2b37f4a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Floekr2d">
+      <UniqueIdentifier>{380a872f-2508-4b24-b194-af775ab0ccbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Floekr2d\public">
+      <UniqueIdentifier>{5c7ae2f7-d058-4c32-ae6d-891d0e7dba8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Floekr2d\protected">
+      <UniqueIdentifier>{59338df9-1a9e-4095-8e9e-027da3718771}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Floekr2d\plugin">
+      <UniqueIdentifier>{f8c06085-9bb6-4236-8c21-7dee253c76a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Floekr2d\private">
+      <UniqueIdentifier>{436b565b-25d1-4897-964f-5d832dfac571}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Floekr2d\private\core">
+      <UniqueIdentifier>{3bdfa3f4-07f5-43d9-8b61-fee3c6150992}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Floekr2d\private\core\collision">
+      <UniqueIdentifier>{d819ea2f-4887-4602-b434-ebe58babc96f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Floekr2d\replaceable">
+      <UniqueIdentifier>{ca6dfcfa-c488-4fc5-9184-75a9901b5e99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Floekr2d\replaceable\allocator">
+      <UniqueIdentifier>{8f971fa2-ec53-4d8f-8721-664f677cba15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Floekr2d\replaceable\datastruct">
+      <UniqueIdentifier>{22f387a0-8d27-4cad-89b4-f8c337973372}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Floekr2d\replaceable\timer">
+      <UniqueIdentifier>{431f9297-b4c0-4aa1-969e-bf077c106056}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Floekr2d\protected\allocator">
+      <UniqueIdentifier>{961af8d6-0faa-45ef-96a6-cc778845cdf5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Floekr2d\protected\datastruct">
+      <UniqueIdentifier>{984627af-73b8-4e71-8655-2d6a40fd6af4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Floekr2d\protected\timer">
+      <UniqueIdentifier>{91f441ad-1429-4155-b8f6-38579abf08ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Floekr2d\public\shape">
+      <UniqueIdentifier>{7af4d314-ee51-4d52-a5f3-9243ac386be9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Floekr2d\private\core\contact">
+      <UniqueIdentifier>{3b118ac0-843d-4236-8213-e7687be4c1c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Floekr2d\protected\math">
+      <UniqueIdentifier>{e2105f82-7ee2-49fc-87a6-8d7aa839746d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Floekr2d\debug\memoryTest.h">
+      <Filter>debug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Floekr2d\debug\collisionTest.h">
+      <Filter>debug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Floekr2d\debug\mathTest.h">
+      <Filter>debug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Floekr2d\private\f2Collision.h">
+      <Filter>Floekr2d\private\core\collision</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Floekr2d\protected\f2Settings.h">
+      <Filter>Floekr2d\protected</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Floekr2d\replaceable\allocator\ATEST.h">
+      <Filter>Floekr2d\replaceable\allocator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Floekr2d\replaceable\allocator\IMemory.h">
+      <Filter>Floekr2d\replaceable\allocator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Floekr2d\replaceable\allocator\MemoryPool.h">
+      <Filter>Floekr2d\replaceable\allocator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Floekr2d\replaceable\allocator\RBBasedata.h">
+      <Filter>Floekr2d\replaceable\allocator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Floekr2d\replaceable\allocator\RBMathEx\Inc\RBMathBase.h">
+      <Filter>Floekr2d\replaceable\allocator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Floekr2d\replaceable\allocator\Trace.h">
+      <Filter>Floekr2d\replaceable\allocator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Floekr2d\replaceable\allocator\Assertion.h">
+      <Filter>Floekr2d\replaceable\allocator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Floekr2d\protected\datastruct\f2List.h">
+      <Filter>Floekr2d\protected\datastruct</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Floekr2d\protected\timer\f2Timer.h">
+      <Filter>Floekr2d\protected\timer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Floekr2d\public\f2Body.h">
+      <Filter>Floekr2d\public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Floekr2d\public\f2Space.h">
+      <Filter>Floekr2d\public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Floekr2d\replaceable\timer\tkTimer.h">
+      <Filter>Floekr2d\replaceable\timer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Floekr2d\replaceable\timer\tkConstants.h">
+      <Filter>Floekr2d\replaceable\timer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Floekr2d\debug\timerTest.h">
+      <Filter>debug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Floekr2d\debug\listTest.h">
+      <Filter>debug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Floekr2d\public\shape\f2PolygonShape.h">
+      <Filter>Floekr2d\public\shape</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Floekr2d\public\shape\f2CircleShape.h">
+      <Filter>Floekr2d\public\shape</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Floekr2d\public\f2Linker.h">
+      <Filter>Floekr2d\public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Floekr2d\public\shape\f2Shape.h">
+      <Filter>Floekr2d\public\shape</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Floekr2d\protected\allocator\f2PoolAllocator.h">
+      <Filter>Floekr2d\protected\allocator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Floekr2d\debug\spaceTest.h">
+      <Filter>debug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Floekr2d\public\shape\f2ShapeGenerator.h">
+      <Filter>Floekr2d\public\shape</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Floekr2d\Floekr2d.h">
+      <Filter>Floekr2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Floekr2d\protected\math\f2Vector2.h">
+      <Filter>Floekr2d\protected\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Floekr2d\protected\math\f2Math.h">
+      <Filter>Floekr2d\protected\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Floekr2d\protected\math\f2Matrix2.h">
+      <Filter>Floekr2d\protected\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Floekr2d\private\f2Contact.h">
+      <Filter>Floekr2d\private\core\contact</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Floekr2d\private\f2ContactController.h">
+      <Filter>Floekr2d\private\core\contact</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Floekr2d\private\f2PolygonContact.h">
+      <Filter>Floekr2d\private\core\contact</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Floekr2d\private\f2CircleAndPolygonContact.h">
+      <Filter>Floekr2d\private\core\contact</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Floekr2d\private\f2CircleContact.h">
+      <Filter>Floekr2d\private\core\contact</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Floekr2d\private\f2ManifoldGenerator.h">
+      <Filter>Floekr2d\private\core\collision</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Floekr2d\plugin\f2Renderer.h">
+      <Filter>Floekr2d\plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Floekr2d\debug\fullTest.h">
+      <Filter>debug</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Floekr2d\debug\main.cpp">
+      <Filter>debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Floekr2d\private\f2Collision.cpp">
+      <Filter>Floekr2d\private\core\collision</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Floekr2d\replaceable\allocator\MemoryPool.cpp">
+      <Filter>Floekr2d\replaceable\allocator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Floekr2d\replaceable\allocator\Trace.cpp">
+      <Filter>Floekr2d\replaceable\allocator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Floekr2d\protected\timer\f2Timer.cpp">
+      <Filter>Floekr2d\protected\timer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Floekr2d\public\f2Body.cpp">
+      <Filter>Floekr2d\public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Floekr2d\public\f2Space.cpp">
+      <Filter>Floekr2d\public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Floekr2d\replaceable\timer\tkTimer.cpp">
+      <Filter>Floekr2d\replaceable\timer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Floekr2d\public\shape\f2CircleShape.cpp">
+      <Filter>Floekr2d\public\shape</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Floekr2d\public\shape\f2PolygonShape.cpp">
+      <Filter>Floekr2d\public\shape</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Floekr2d\public\f2Linker.cpp">
+      <Filter>Floekr2d\public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Floekr2d\public\shape\f2Shape.cpp">
+      <Filter>Floekr2d\public\shape</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Floekr2d\protected\allocator\f2PoolAllocator.cpp">
+      <Filter>Floekr2d\protected\allocator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Floekr2d\public\shape\f2ShapeGenerator.cpp">
+      <Filter>Floekr2d\public\shape</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Floekr2d\protected\f2Settings.cpp">
+      <Filter>Floekr2d\protected</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Floekr2d\private\f2ContactController.cpp">
+      <Filter>Floekr2d\private\core\contact</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Floekr2d\private\f2PolygonContact.cpp">
+      <Filter>Floekr2d\private\core\contact</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Floekr2d\private\f2CircleAndPolygonContact.cpp">
+      <Filter>Floekr2d\private\core\contact</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Floekr2d\private\f2CircleContact.cpp">
+      <Filter>Floekr2d\private\core\contact</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Floekr2d\private\f2Contact.cpp">
+      <Filter>Floekr2d\private\core\contact</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Floekr2d\private\f2ManifoldGenerator.cpp">
+      <Filter>Floekr2d\private\core\collision</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Floekr2d\plugin\f2Renderer.cpp">
+      <Filter>Floekr2d\plugin</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

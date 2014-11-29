@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Floekr2d\debug\collisionTest.h" />
+    <ClInclude Include="..\..\Floekr2d\debug\fullTest.h" />
+    <ClInclude Include="..\..\Floekr2d\debug\listTest.h" />
+    <ClInclude Include="..\..\Floekr2d\debug\mathTest.h" />
+    <ClInclude Include="..\..\Floekr2d\debug\memoryTest.h" />
+    <ClInclude Include="..\..\Floekr2d\debug\spaceTest.h" />
+    <ClInclude Include="..\..\Floekr2d\debug\timerTest.h" />
+    <ClInclude Include="..\..\Floekr2d\Floekr2d.h" />
+    <ClInclude Include="..\..\Floekr2d\plugin\f2Renderer.h" />
+    <ClInclude Include="..\..\Floekr2d\private\f2CircleAndPolygonContact.h" />
+    <ClInclude Include="..\..\Floekr2d\private\f2CircleContact.h" />
+    <ClInclude Include="..\..\Floekr2d\private\f2Collision.h" />
+    <ClInclude Include="..\..\Floekr2d\private\f2Contact.h" />
+    <ClInclude Include="..\..\Floekr2d\private\f2ContactController.h" />
+    <ClInclude Include="..\..\Floekr2d\private\f2ManifoldGenerator.h" />
+    <ClInclude Include="..\..\Floekr2d\private\f2PolygonContact.h" />
+    <ClInclude Include="..\..\Floekr2d\protected\allocator\f2PoolAllocator.h" />
+    <ClInclude Include="..\..\Floekr2d\protected\datastruct\f2List.h" />
+    <ClInclude Include="..\..\Floekr2d\protected\f2Settings.h" />
+    <ClInclude Include="..\..\Floekr2d\protected\math\f2Math.h" />
+    <ClInclude Include="..\..\Floekr2d\protected\math\f2Matrix2.h" />
+    <ClInclude Include="..\..\Floekr2d\protected\math\f2Vector2.h" />
+    <ClInclude Include="..\..\Floekr2d\protected\timer\f2Timer.h" />
+    <ClInclude Include="..\..\Floekr2d\public\f2Body.h" />
+    <ClInclude Include="..\..\Floekr2d\public\f2Linker.h" />
+    <ClInclude Include="..\..\Floekr2d\public\f2Space.h" />
+    <ClInclude Include="..\..\Floekr2d\public\shape\f2CircleShape.h" />
+    <ClInclude Include="..\..\Floekr2d\public\shape\f2PolygonShape.h" />
+    <ClInclude Include="..\..\Floekr2d\public\shape\f2Shape.h" />
+    <ClInclude Include="..\..\Floekr2d\public\shape\f2ShapeGenerator.h" />
+    <ClInclude Include="..\..\Floekr2d\replaceable\allocator\Assertion.h" />
+    <ClInclude Include="..\..\Floekr2d\replaceable\allocator\ATEST.h" />
+    <ClInclude Include="..\..\Floekr2d\replaceable\allocator\IMemory.h" />
+    <ClInclude Include="..\..\Floekr2d\replaceable\allocator\MemoryPool.h" />
+    <ClInclude Include="..\..\Floekr2d\replaceable\allocator\RBBasedata.h" />
+    <ClInclude Include="..\..\Floekr2d\replaceable\allocator\RBMathEx\Inc\RBMathBase.h" />
+    <ClInclude Include="..\..\Floekr2d\replaceable\allocator\Trace.h" />
+    <ClInclude Include="..\..\Floekr2d\replaceable\timer\tkConstants.h" />
+    <ClInclude Include="..\..\Floekr2d\replaceable\timer\tkTimer.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Floekr2d\debug\main.cpp" />
+    <ClCompile Include="..\..\Floekr2d\plugin\f2Renderer.cpp" />
+    <ClCompile Include="..\..\Floekr2d\private\f2CircleAndPolygonContact.cpp" />
+    <ClCompile Include="..\..\Floekr2d\private\f2CircleContact.cpp" />
+    <ClCompile Include="..\..\Floekr2d\private\f2Collision.cpp" />
+    <ClCompile Include="..\..\Floekr2d\private\f2Contact.cpp" />
+    <ClCompile Include="..\..\Floekr2d\private\f2ContactController.cpp" />
+    <ClCompile Include="..\..\Floekr2d\private\f2ManifoldGenerator.cpp" />
+    <ClCompile Include="..\..\Floekr2d\private\f2PolygonContact.cpp" />
+    <ClCompile Include="..\..\Floekr2d\protected\allocator\f2PoolAllocator.cpp" />
+    <ClCompile Include="..\..\Floekr2d\protected\f2Settings.cpp" />
+    <ClCompile Include="..\..\Floekr2d\protected\timer\f2Timer.cpp" />
+    <ClCompile Include="..\..\Floekr2d\public\f2Body.cpp" />
+    <ClCompile Include="..\..\Floekr2d\public\f2Linker.cpp" />
+    <ClCompile Include="..\..\Floekr2d\public\f2Space.cpp" />
+    <ClCompile Include="..\..\Floekr2d\public\shape\f2CircleShape.cpp" />
+    <ClCompile Include="..\..\Floekr2d\public\shape\f2PolygonShape.cpp" />
+    <ClCompile Include="..\..\Floekr2d\public\shape\f2Shape.cpp" />
+    <ClCompile Include="..\..\Floekr2d\public\shape\f2ShapeGenerator.cpp" />
+    <ClCompile Include="..\..\Floekr2d\replaceable\allocator\MemoryPool.cpp" />
+    <ClCompile Include="..\..\Floekr2d\replaceable\allocator\Trace.cpp" />
+    <ClCompile Include="..\..\Floekr2d\replaceable\timer\tkTimer.cpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{AD18E179-A3BF-4101-8F94-2BD5B2467E90}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Floekr2d</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>..\..</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
